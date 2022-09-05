@@ -8,7 +8,7 @@ def MyFunc(inp:list) -> tuple:
 	 However this approach doesnot hold in python 3 as int is ubnound
 	 An alternative approach would be useing numpy's -np.inf
 	'''
-	max_float = 2^(63) - 1  
+	max_float = -(2^(63) - 1)  
 	for element in inp:
 		if isinstance(element,int) and element%2 == 0:
 			total_int += element 
