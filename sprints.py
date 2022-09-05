@@ -17,5 +17,5 @@ def MyFunc(inp:list) -> tuple:
 			max_float = element if element > max_float else max_float
 	mean_even_int = 0 if count_int == 0 else total_int/count_int
 	return max_float,mean_even_int
-q
+
 
